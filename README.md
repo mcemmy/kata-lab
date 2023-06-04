@@ -1,1 +1,1 @@
-# kata-lab
+# Kata Lab
