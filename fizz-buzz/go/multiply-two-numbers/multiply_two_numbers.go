@@ -3,12 +3,9 @@ package multiplytwonumbers
 import "fmt"
 
 func main() {
-	fmt.Println("Multiply two integrer numbers without the * operator")
-
+	fmt.Println("Hello, Multiply Two Numbers!")
+	fmt.Println("********************")
 }
-
-// 2 * 3 = 6 i.e 2 + 2 + 2
-// 2 * -3 = -6 i.e -2 + -2 + -2
 
 func Multiply(x, y int) int {
 	if x < 0 {
@@ -20,9 +17,9 @@ func Multiply(x, y int) int {
 		x, y = y, x
 	}
 
-	sum := 0
+	result := 0
 	for i := 0; i < y; i++ {
-		sum += x
+		result += x
 	}
-	return sum
+	return result
 }
